@@ -1,0 +1,14 @@
+body {
+    font-family: 'Bebas Neue';
+}
+
+html,
+body {
+    background-color: #EEEEEE;
+    color: #222831;
+    font-size: 16px;
+}
+
+.header__navbar {
+    margin: 0 3%;
+}
