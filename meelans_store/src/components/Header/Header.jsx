@@ -1,6 +1,9 @@
 import React from 'react';
 import '../Header/Header.css'
 
+import { PiBookmarkSimpleDuotone } from "react-icons/pi";
+import { PiShoppingCartSimpleDuotone } from "react-icons/pi";
+
 function Header() {
     return (
         <header className='header'>
@@ -13,13 +16,12 @@ function Header() {
                     <nav className='header__navbar'>
                         <h2 className='header__burger'>Меню</h2>
                         <ul className='header__menu'>
-                            <li><a href='#'>One</a></li>
-                            <li><a href='#'>Two</a></li>
-                            <li><a href='#'>Three</a></li>
-                            <li><a href='#'>Four</a></li>
                             <li>
                                 <span className='header__icon'>Search</span>
                             </li>
+                            <li><a href='#!'><PiBookmarkSimpleDuotone className='header__bookmark'/></a></li>
+                            <li><a href='#!'><PiShoppingCartSimpleDuotone className='header__shopCart' /></a></li>
+                            <li><a href='#!'>Личный кабинет</a></li>
                         </ul>
                     </nav>
                 </div>
